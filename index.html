@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yungi Jeong | Academic Portfolio</title>
+    <meta name="description"
+        content="Academic portfolio of Yungi Jeong, specializing in Data Science and Operational Resea. Research interests, publications, and projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Yungi Jeong</a>
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#research" class="nav-link">Research</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="Yungi Jeong Resume general2.pdf" class="btn btn-small" target="_blank">CV</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </nav>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="container home-container">
+            <div class="home-content">
+                <h1 class="home-title">Hello, I'm <br>Yungi Jeong</h1>
+                <h3 class="home-subtitle">Waseda University / National University of Singapore</h3>
+                <p class="home-description">
+                    Aspiring to drive innovation in Probabilistic Machine Learning, Physics Informed Machine Learning,
+                    Stochastic Processes, and
+                    Operational Research.
+                    Welcome to my academic portfolio where I showcase my research and projects.
+                </p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <div class="home-img">
+                <div class="home-img-blob">
+                    <img src="assets/profile.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <br>
+    <br>
+
+
+    <section class="section about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="container about-container">
+            <div class="about-data">
+                <p class="about-description">
+                    I am a dedicated undergraduate student with a background in Data Science and Operational Research.
+                    My academic journey has led me to explore dealing with uncertainty and learning theory using machine
+                    learning.
+                    I am passionate about solving both theoretical and applied problems and contributing to the
+                    scientific community.
+                </p>
+
+                <div class="about-info">
+                    <div>
+                        <span class="about-info-title">Education</span>
+                        <span class="about-info-name">Waseda University<br>BA in Liberal Arts (Specializing in
+                            Mathematical Sciences)</span>
+                        <br>
+                        <span class="about-info-name">National University of Singapore<br>BSc (Hons.) in Data Science
+                            and Analytics (Minor in AI)</span>
+
+                    </div>
+                    <div>
+                        <span class="about-info-title">Skills</span>
+                        <span class="about-info-name">Python,TensorFlow, PyTorch, SQL, R<br>Git, LangChain,
+                            HuggingFace, OpenAI, LangSmith, RAG, Flask</span>
+                    </div>
+                    <div>
+                        <span class="about-info-title">Interests</span>
+                        <span class="about-info-name">Listening to Piano, Badminton, Basketball<br>Photography</span>
+                    </div>
+                </div>
+
+                <div class="about-buttons">
+                    <a href="Yungi Jeong Resume general2.pdf" class="btn">Download CV <i
+                            class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="section research" id="research">
+        <h2 class="section-title">Research Interests</h2>
+        <div class="container research-container">
+
+            <!-- Interest 1 -->
+            <div class="research-card">
+                <i class="fas fa-random research-icon"></i>
+                <h3 class="research-title">Stochastic Processes and Optimization</h3>
+                <p class="research-description">
+                    Investigating the use of stochastic dynamics and principles from statistical physics (e.g., Langevin
+                    Dynamics)
+                    to enhance machine learning optimization. Research focuses on designing robust algorithms for
+                    Minimax Games and overcoming stability issues like mode collapse through controlled thermodynamic
+                    noise.
+                </p>
+            </div>
+
+            <div class="research-card">
+                <i class="fas fa-dice research-icon"></i>
+                <h3 class="research-title">Probabilistic Modeling and Uncertainty Quantification (UQ)</h3>
+                <p class="research-description">
+                    Developing and applying Bayesian Neural Networks (BNNs) and other probabilistic models to quantify
+                    model reliability.
+                    Research includes accurately measuring and visualizing epistemic uncertainty to build trustworthy AI
+                    systems
+                    that understand the limits of their own knowledge.
+                </p>
+            </div>
+
+            <div class="research-card">
+                <i class="fas fa-compress research-icon"></i>
+                <h3 class="research-title">Information Theory and Generalization Dynamics</h3>
+                <p class="research-description">
+                    Exploring the theoretical foundations of deep learning through the lens of information.
+                    Focusing on concepts like the Information Bottleneck (IB) Principle and analyzing how the
+                    dynamics of training affect information compression and a network's ultimate generalization
+                    capabilities.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects / Publications -->
+    <section class="section projects" id="projects">
+        <h2 class="section-title">Projects & Publications</h2>
+        <div class="container projects-container">
+
+            <!-- Project 1 -->
+            <article class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Thermodynamic Exploration in Minimax Games: Preventing Mode Collapse via
+                        Asymmetric SGLD</h3>
+                    <span class="project-status">Published in Zenodo</span>
+                    <p class="project-description">
+                        Resolving the lack of ergodicity in standard optimization process in Generative Adversarial
+                        Networks (GANs) using Asymmetric Stochastic Gradient Langevin Dynamics
+                    </p>
+                    <a href="https://doi.org/10.5281/zenodo.17855571" class="project-link">View Project <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Investigating Information Theory and Stochastic Dynamics. </h3>
+                    <span class="project-status">Completed</span>
+                    <p class="project-description">
+                        Quantified the training dynamics of a Bayesian Neural Network (BNN) by plotting its Information
+                        Bottleneck (IB) trajectory. Demonstrated how noise injection and sampling from the posterior can
+                        reduce compression phase and increase generalization.
+                    </p>
+                    <a href="https://github.com/realYungi/information-bottleneck" class="project-link">View Project <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">RAG Chatbot Fullstack Development</h3>
+                    <span class="project-status">Completed</span>
+                    <p class="project-description">
+                        Created a RAG chatbot for a Professor at Waseda University to let his students use the chatbot
+                        that only retrieves knowledge limited to Professor's textbook.
+                    </p>
+                    <a href="https://sils.datasciencejp.com/" class="project-link">View Project <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer class="footer section" id="contact">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <h2 class="footer-title">Yungi Jeong</h2>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/yungijeong/" target="_blank" class="footer-social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/realYungi" target="_blank" class="footer-social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="e1562150@u.nus.edu" class="footer-social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <p class="footer-copy">
+                &copy; 2025 Yungi Jeong. All rights reserved.<br>
+                <span>Hosted on GitHub Pages</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
